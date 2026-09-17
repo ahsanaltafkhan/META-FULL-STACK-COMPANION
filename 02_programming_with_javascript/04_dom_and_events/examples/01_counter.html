@@ -1,0 +1,14 @@
+<!doctype html>
+<html>
+<body>
+  <button id="count">0</button>
+  <script>
+    let value = 0;
+    const button = document.querySelector("#count");
+    button.addEventListener("click", () => {
+      value++;
+      button.textContent = value;
+    });
+  </script>
+</body>
+</html>
